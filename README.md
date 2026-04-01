@@ -1,2 +1,36 @@
-# market-analysis-ml
-Machine learning project for financial market prediction that correctly handles time series data. Demonstrates proper feature engineering without look-ahead bias, ensemble methods, and production-ready deployment with Streamlit.
+# 📊 Market Analysis ML - No Look-ahead Bias
+
+A realistic machine learning system for stock and forex market prediction that rigorously prevents look-ahead bias in feature engineering.
+
+## Key Features
+
+- ** No Look-ahead Bias**: All features use only data available BEFORE the prediction day
+- ** Dual Market Support**: Stocks (any Yahoo Finance ticker) and Forex (EURUSD, GBPUSD, JPY, AUDUSD, USDCAD)
+- ** Multiple Models**: XGBoost, Random Forest, and Ensemble Voting
+- ** Realistic Validation**: Time series cross-validation that respects chronological order
+- ** Interactive Dashboard**: Built with Streamlit for real-time analysis
+- ** Cross-Market Comparison**: Compare model performance across different asset classes
+
+## Live Demo
+
+[Deploy to Streamlit Cloud](https://streamlit.io/cloud) - Connect your GitHub repo and deploy in minutes
+
+## Example Results
+
+| Asset | Typical Accuracy | Interpretation |
+|-------|-----------------|----------------|
+| Stocks (AAPL) | 53-58% | Good predictive power |
+| Forex (EURUSD) | 48-52% | Typical for forex markets |
+
+## 🛠️ Installation & Usage
+
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
+### Local Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Tom223-hub/market-analysis-ml.git
+cd market-analysis-ml
