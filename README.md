@@ -13,7 +13,7 @@ A realistic machine learning system for stock and forex market prediction that r
 
 ## Live Demo
 
-[Deploy to Streamlit Cloud](https://streamlit.io/cloud) - Connect your GitHub repo and deploy in minutes
+[Deploy to Streamlit Cloud](https://market-analysis-ml-2clfbrpodgbbhiuqhavar2.streamlit.app/) - Connect your GitHub repo and deploy in minutes
 
 ## Example Results
 
