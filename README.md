@@ -4,7 +4,7 @@ A realistic machine learning system for stock and forex market prediction that r
 
 ## Key Features
 
-- ** No Look-ahead Bias**: All features use only data available BEFORE the prediction day
+- ** No Look-ahead Bias**: All features use only data available before the prediction day
 - ** Dual Market Support**: Stocks (any Yahoo Finance ticker) and Forex (EURUSD, GBPUSD, JPY, AUDUSD, USDCAD)
 - ** Multiple Models**: XGBoost, Random Forest, and Ensemble Voting
 - ** Realistic Validation**: Time series cross-validation that respects chronological order
