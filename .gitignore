@@ -205,3 +205,54 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Data files (to avoid committing large datasets)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+data/
+raw_data/
+processed_data/
+*.yfinance-cache/
+.yfinance-cache/
+
+# Model files (trained models can be large)
+*.pkl
+*.joblib
+*.model
+*.h5
+*.pth
+models/
+trained_models/
+
+# Logs and outputs
+logs/
+outputs/
+results/
+*.log
+
+# Environment variables (API keys, passwords)
+.env
+.env.local
+.env.*.local
+
+# Jupyter notebooks (if you create analysis notebooks)
+*.ipynb
+*.ipynb_checkpoints
+
+# OS generated files (macOS specific)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit Cloud deployment
+.streamlit/config.toml
